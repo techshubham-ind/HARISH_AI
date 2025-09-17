@@ -3,9 +3,10 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), black no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
+
 }
 
 .container {
@@ -82,3 +83,4 @@ h1 {
     from { opacity: 0; transform: translateY(10px);}
     to { opacity: 1; transform: translateY(0);}
 }
+
